@@ -1,0 +1,690 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-27",
+  "venture": {
+    "name": "Zap Band",
+    "business_concept": "Proposed personal wearable alarm using adjustable electrical pulses to wake its wearer with less disturbance to other people.",
+    "primary_product": "Wearable wake-up alarm; wristband, patch, or another comfortable wearable form remains undecided.",
+    "target_customers": [
+      "Students with roommates",
+      "Working adults sharing a bed",
+      "Couples with different schedules",
+      "Travelers"
+    ],
+    "customer_need": "Wake at a chosen time without a loud room-wide alarm.",
+    "value_proposition": "Quiet individual waking with simple controls, comfort, reliability, and affordability as design goals.",
+    "geographic_market": "Workspace says anywhere; Connecticut and New York are discussed as possible test markets.",
+    "research_market_assumption": "United States online retail in USD is the primary benchmark. UK TabTime is a separate comparable-market reference, without currency conversion.",
+    "distribution_channels": null,
+    "distribution_assumption": "Direct-to-consumer online sales are a research assumption, not a confirmed venture decision.",
+    "features": [
+      "User-selected wake time",
+      "Adjustable electrical stimulus strength",
+      "Comfortable wearable form",
+      "Daily use",
+      "Simple controls"
+    ],
+    "development_status": "Concept; safety, waking effectiveness, reliability, and comfort are not established product claims.",
+    "prior_research": "Workspace reports 29 selected Amazon reviews and a simulation with three fictional participants. These are background hypotheses, not representative demand or willingness-to-pay evidence.",
+    "source": "User-provided venture workspace.pdf, all 10 pages visually reviewed; venture details on pages 1, 3, 7, 9 and 10."
+  },
+  "competitors": [
+    {
+      "competitor_id": "C01",
+      "name": "Pavlok",
+      "classification": "Direct",
+      "official_website": "https://pavlok.com",
+      "geographic_market": "US online store; international sales subject to destination terms",
+      "target_customers": "Heavy sleepers and people seeking to change habits",
+      "main_products": "Electrical-stimulus alarm wearables and habit tools",
+      "positioning": "Premium specialist",
+      "differentiating_features": "Electrical stimulus, vibration, app control; MAX adds on-device screen controls",
+      "reason_for_inclusion": "Closest mechanism and wearable form to the proposed Zap Band.",
+      "representative_offer_id": "P01",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "competitor_id": "C02",
+      "name": "Google Fitbit",
+      "classification": "Indirect",
+      "official_website": "https://store.google.com",
+      "geographic_market": "US Google Store",
+      "target_customers": "Consumers seeking fitness and sleep tracking with a wrist alarm",
+      "main_products": "Fitness trackers with vibrating Smart Wake alarms",
+      "positioning": "Mid-market multifunction wearable",
+      "differentiating_features": "Combines a wrist alarm with activity and sleep tracking",
+      "reason_for_inclusion": "A consumer can satisfy the quiet-wrist-alarm need while gaining broader tracking functions.",
+      "representative_offer_id": "P06",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "competitor_id": "C03",
+      "name": "Sonic Alert",
+      "classification": "Indirect",
+      "official_website": "https://www.sonicalert.com",
+      "geographic_market": "US online store",
+      "target_customers": "Heavy sleepers, travelers, and people needing tactile alarm signals",
+      "main_products": "Vibrating pillow and bed-shaker alarm clocks",
+      "positioning": "Budget tactile alarm alternative",
+      "differentiating_features": "No wrist device required; physical alarm controls and vibration options",
+      "reason_for_inclusion": "Offers a lower-cost tactile substitute; shared-bed vibration may still disturb a partner.",
+      "representative_offer_id": "P08",
+      "source_ids": [
+        "S07",
+        "S08",
+        "S09"
+      ]
+    },
+    {
+      "competitor_id": "C04",
+      "name": "TabTime",
+      "classification": "Indirect",
+      "official_website": "https://tabtime.com",
+      "geographic_market": "UK storefront in GBP; US delivery and landed cost unverified",
+      "target_customers": "People needing silent daily reminders or a personal wake-up alarm",
+      "main_products": "Reminder watches and medication-management products",
+      "positioning": "Budget single-purpose wearable reference",
+      "differentiating_features": "Ten daily vibration alarms, two-button controls, rechargeable battery",
+      "reason_for_inclusion": "Relevant simple wrist-worn alternative, but vibration differs from electrical stimulus and the observed offer is UK-based.",
+      "representative_offer_id": "P10",
+      "source_ids": [
+        "S10"
+      ]
+    }
+  ],
+  "pricing_offers": [
+    {
+      "offer_id": "P01",
+      "competitor_id": "C01",
+      "competitor_name": "Pavlok",
+      "product_name": "Shock Clock 3",
+      "description": "App-controlled electrical-stimulus wrist alarm.",
+      "current_price": 159.99,
+      "regular_price": 160,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per device",
+      "offer_kind": "hardware",
+      "features": [
+        "Adjustable electrical stimulus",
+        "Vibration and optional sound",
+        "App-based alarm setup"
+      ],
+      "is_representative": true,
+      "source_id": "S01",
+      "source_url": "https://pavlok.com/products/shock-clock-3",
+      "source_type": "Official product page",
+      "research_date": "2026-10-27",
+      "verification_status": "Verified",
+      "price_type": "Listed price",
+      "research_notes": "Page displays a $160 reference and a conflicting Save 27% label. Record $159.99 as the current price; promotional amount is unconfirmed. Reference price is not proof of historical sales.",
+      "additional_charges": "Tax/shipping not established. Optional bands displayed at $14.99 and extended warranty at $49.99; not required in comparison.",
+      "variations": "Band options; same core alarm device.",
+      "secondary_source_ids": [
+        "S04"
+      ],
+      "availability": "Purchase or subscription action displayed; checkout not tested",
+      "comparable_group": "usd_representative_hardware"
+    },
+    {
+      "offer_id": "P02",
+      "competitor_id": "C01",
+      "competitor_name": "Pavlok",
+      "product_name": "Shock Clock MAX",
+      "description": "Electrical-stimulus wearable with screen-based controls.",
+      "current_price": 219.99,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per device",
+      "offer_kind": "hardware",
+      "features": [
+        "Electrical stimulus and vibration",
+        "Backlit screen",
+        "Alarms adjustable on device"
+      ],
+      "is_representative": false,
+      "source_id": "S02",
+      "source_url": "https://pavlok.com/products/shock-clock-max",
+      "source_type": "Official product page",
+      "research_date": "2026-10-27",
+      "verification_status": "Verified",
+      "price_type": "Listed price",
+      "research_notes": "Some FAQ text refers to unrelated supplements; those claims are excluded. Product price and screen controls are clearly displayed.",
+      "additional_charges": "Tax/shipping not established; optional accessories excluded.",
+      "variations": "Premium device tier.",
+      "secondary_source_ids": [],
+      "availability": "Purchase or subscription action displayed; checkout not tested",
+      "comparable_group": null
+    },
+    {
+      "offer_id": "P03",
+      "competitor_id": "C01",
+      "competitor_name": "Pavlok",
+      "product_name": "Shock Clock 3 rental",
+      "description": "Use of a Shock Clock 3 while rental remains active.",
+      "current_price": 19.99,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_model": "Monthly rental",
+      "pricing_unit": "per month",
+      "offer_kind": "rental",
+      "features": [
+        "Same alarm hardware",
+        "Return to cancel",
+        "Optional buyout"
+      ],
+      "is_representative": false,
+      "source_id": "S01",
+      "source_url": "https://pavlok.com/products/shock-clock-3",
+      "source_type": "Official product page",
+      "research_date": "2026-10-27",
+      "verification_status": "Verified",
+      "price_type": "Listed price",
+      "research_notes": "Live product selector shows $19.99/month; navigation and older support material show $19. Use live selector. Rental is not rent-to-own; fees do not build equity.",
+      "additional_charges": "Support policy lists a $99 buyout in addition to rental payments. Confirm terms before purchase.",
+      "variations": "",
+      "secondary_source_ids": [
+        "S04"
+      ],
+      "availability": "Purchase or subscription action displayed; checkout not tested",
+      "comparable_group": null
+    },
+    {
+      "offer_id": "P04",
+      "competitor_id": "C01",
+      "competitor_name": "Pavlok",
+      "product_name": "Pavlok Plus Monthly",
+      "description": "Optional advanced habit features for a compatible device.",
+      "current_price": 4.99,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_model": "Monthly subscription",
+      "pricing_unit": "per month",
+      "offer_kind": "software_add_on",
+      "features": [
+        "Custom habits",
+        "Widgets",
+        "Shared device control"
+      ],
+      "is_representative": false,
+      "source_id": "S03",
+      "source_url": "https://pavlok.com/pages/pavlok-plus",
+      "source_type": "Official pricing page",
+      "research_date": "2026-10-27",
+      "verification_status": "Verified",
+      "price_type": "Listed price",
+      "research_notes": "Optional upgrade for Shock Clock owners, not a hardware price. Device purchase/rental is additional.",
+      "additional_charges": "Compatible device required.",
+      "variations": "",
+      "secondary_source_ids": [],
+      "availability": "Purchase or subscription action displayed; checkout not tested",
+      "comparable_group": null
+    },
+    {
+      "offer_id": "P05",
+      "competitor_id": "C01",
+      "competitor_name": "Pavlok",
+      "product_name": "Pavlok Plus Yearly",
+      "description": "Annual billing for the optional Pavlok Plus upgrade.",
+      "current_price": 29.99,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_model": "Annual subscription",
+      "pricing_unit": "per year",
+      "offer_kind": "software_add_on",
+      "features": [
+        "Same Plus upgrade features",
+        "Annual commitment"
+      ],
+      "is_representative": false,
+      "source_id": "S03",
+      "source_url": "https://pavlok.com/pages/pavlok-plus",
+      "source_type": "Official pricing page",
+      "research_date": "2026-10-27",
+      "verification_status": "Verified",
+      "price_type": "Listed price",
+      "research_notes": "Equivalent to $2.50/month when rounded; billed $29.99 annually. Compared with 12 monthly payments, saves $29.89 (49.9%).",
+      "additional_charges": "Compatible device required.",
+      "variations": "",
+      "secondary_source_ids": [],
+      "availability": "Purchase or subscription action displayed; checkout not tested",
+      "comparable_group": null
+    },
+    {
+      "offer_id": "P06",
+      "competitor_id": "C02",
+      "competitor_name": "Google Fitbit",
+      "product_name": "Fitbit Inspire 3",
+      "description": "Fitness tracker with a vibrating Smart Wake alarm.",
+      "current_price": 99.95,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per device",
+      "offer_kind": "hardware",
+      "features": [
+        "Vibrating Smart Wake",
+        "Sleep and activity tracking",
+        "Up to 10-day claimed battery life"
+      ],
+      "is_representative": true,
+      "source_id": "S05",
+      "source_url": "https://store.google.com/us/product/fitbit_inspire_3?hl=en-US",
+      "source_type": "Official product page",
+      "research_date": "2026-10-27",
+      "verification_status": "Verified",
+      "price_type": "Listed price",
+      "research_notes": "Live page shows $99.95. Search-result $79.95 promotion ended 09/27 and is excluded. Three-month Premium offer subject to eligibility; renewal terms require confirmation.",
+      "additional_charges": "Optional Google Health Premium and accessories excluded. Checkout tax/shipping not assessed.",
+      "variations": "Colors and accessory bands; no separate color prices established.",
+      "secondary_source_ids": [
+        "S11",
+        "S12"
+      ],
+      "availability": "Purchase or subscription action displayed; checkout not tested",
+      "comparable_group": "usd_representative_hardware"
+    },
+    {
+      "offer_id": "P07",
+      "competitor_id": "C02",
+      "competitor_name": "Google Fitbit",
+      "product_name": "Fitbit Charge 6",
+      "description": "Higher-feature fitness tracker with vibrating alarm.",
+      "current_price": 159.95,
+      "regular_price": null,
+      "promotional_price": null,
+      "currency": "USD",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per device",
+      "offer_kind": "hardware",
+      "features": [
+        "Vibrating Smart Wake",
+        "Built-in GPS",
+        "Activity and sleep tracking"
+      ],
+      "is_representative": false,
+      "source_id": "S06",
+      "source_url": "https://store.google.com/us/product/fitbit_charge_6?hl=en-US",
+      "source_type": "Official product page",
+      "research_date": "2026-10-27",
+      "verification_status": "Verified",
+      "price_type": "Listed price",
+      "research_notes": "Financing is a payment method for ownership, not a device subscription. Three-month Premium offer is conditional.",
+      "additional_charges": "Optional Premium, accessories, and checkout charges excluded.",
+      "variations": "Higher-feature tier and color options.",
+      "secondary_source_ids": [
+        "S11",
+        "S12"
+      ],
+      "availability": "Purchase or subscription action displayed; checkout not tested",
+      "comparable_group": null
+    },
+    {
+      "offer_id": "P08",
+      "competitor_id": "C03",
+      "competitor_name": "Sonic Alert",
+      "product_name": "Sonic Shaker White Compact Alarm Clock SBP200",
+      "description": "Portable rechargeable alarm that can vibrate under a pillow.",
+      "current_price": 35,
+      "regular_price": 42.99,
+      "promotional_price": 35,
+      "currency": "USD",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per device",
+      "offer_kind": "hardware",
+      "features": [
+        "Vibrate, buzz, or both",
+        "Pillow clip",
+        "Physical controls and test mode"
+      ],
+      "is_representative": true,
+      "source_id": "S07",
+      "source_url": "https://www.sonicalert.com/Sonic-Shaker-White-Alarm-Clock",
+      "source_type": "Official product page",
+      "research_date": "2026-10-27",
+      "verification_status": "Verified",
+      "price_type": "Displayed discount",
+      "research_notes": "Higher displayed reference is not proof of historical sales. Selected for portability and explicit vibration-only mode.",
+      "additional_charges": "Free-shipping banner says orders over $35; this $35 item alone may not qualify. Tax and shipping amount not established.",
+      "variations": "",
+      "secondary_source_ids": [],
+      "availability": "Purchase or subscription action displayed; checkout not tested",
+      "comparable_group": "usd_representative_hardware"
+    },
+    {
+      "offer_id": "P09",
+      "competitor_id": "C03",
+      "competitor_name": "Sonic Alert",
+      "product_name": "Sonic Bomb Alarm Clock with Super Shaker SBB500SS",
+      "description": "Bedside alarm with included bed shaker and adjustable sound.",
+      "current_price": 44.99,
+      "regular_price": 72.99,
+      "promotional_price": 44.99,
+      "currency": "USD",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per device",
+      "offer_kind": "hardware",
+      "features": [
+        "Included 12V bed shaker",
+        "Dual alarms",
+        "Adjustable sound and strobe lights"
+      ],
+      "is_representative": false,
+      "source_id": "S08",
+      "source_url": "https://www.sonicalert.com/SBB500SS-Alarm-Clock",
+      "source_type": "Official product page",
+      "research_date": "2026-10-27",
+      "verification_status": "Verified",
+      "price_type": "Displayed catalogue discount",
+      "research_notes": "Current price confirmed on product page; $72.99 reference is from official catalogue. Not a historical price claim. Sound/light settings and shared-bed disturbance affect suitability.",
+      "additional_charges": "Site banner offers free shipping on orders over $35; destination and tax remain untested.",
+      "variations": "Other color variants exist; this record is the classic black SBB500SS only.",
+      "secondary_source_ids": [
+        "S09"
+      ],
+      "availability": "Purchase or subscription action displayed; checkout not tested",
+      "comparable_group": null
+    },
+    {
+      "offer_id": "P10",
+      "competitor_id": "C04",
+      "competitor_name": "TabTime",
+      "product_name": "TabTime Vibrating Alarm Watch with 10 alarms",
+      "description": "Rechargeable wrist reminder watch also marketed for waking.",
+      "current_price": 24.99,
+      "regular_price": 29.99,
+      "promotional_price": 24.99,
+      "currency": "GBP",
+      "pricing_model": "One-time purchase",
+      "pricing_unit": "per device",
+      "offer_kind": "hardware",
+      "features": [
+        "10 daily vibration alarms",
+        "Two-button programming",
+        "7–10 day claimed battery life"
+      ],
+      "is_representative": true,
+      "source_id": "S10",
+      "source_url": "https://tabtime.com/products/tabtime-vibrating-alarm-watch-with-10-alarms",
+      "source_type": "Official product page",
+      "research_date": "2026-10-27",
+      "verification_status": "Verified",
+      "price_type": "Sale",
+      "research_notes": "UK price retained in GBP. Excluded from USD statistics; delivery, VAT treatment, duties, and US landed cost not established.",
+      "additional_charges": "Shipping and any destination taxes/duties unknown.",
+      "variations": "Adult and child sizes; multiple colors. No distinct variant prices established.",
+      "secondary_source_ids": [],
+      "availability": "Purchase or subscription action displayed; checkout not tested",
+      "comparable_group": null
+    }
+  ],
+  "comparison_groups": [
+    {
+      "group_id": "usd_representative_hardware",
+      "included_offer_ids": [
+        "P01",
+        "P06",
+        "P08"
+      ],
+      "currency": "USD",
+      "unit": "per device",
+      "description": "One representative hardware offer per US brand; broad tactile-waking substitutes, not feature-equivalent products.",
+      "count": 3,
+      "minimum": 35,
+      "maximum": 159.99,
+      "average": 98.31,
+      "median": 99.95
+    },
+    {
+      "group_id": "usd_representative_wearables",
+      "included_offer_ids": [
+        "P01",
+        "P06"
+      ],
+      "currency": "USD",
+      "unit": "per device",
+      "description": "Narrower wrist-wearable comparison; electrical stimulus versus vibration, only two brands.",
+      "count": 2,
+      "minimum": 99.95,
+      "maximum": 159.99,
+      "average": 129.97,
+      "median": 129.97
+    },
+    {
+      "group_id": "usd_all_researched_hardware",
+      "included_offer_ids": [
+        "P01",
+        "P02",
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "currency": "USD",
+      "unit": "per device",
+      "description": "All six researched USD hardware offers; multiple offers per brand, so not the headline competitor average.",
+      "count": 6,
+      "minimum": 35,
+      "maximum": 219.99,
+      "average": 119.98,
+      "median": 129.95
+    }
+  ],
+  "competitor_hardware_ranges": [
+    {
+      "competitor_id": "C01",
+      "currency": "USD",
+      "unit": "per device",
+      "minimum": 159.99,
+      "maximum": 219.99,
+      "included_offer_ids": [
+        "P01",
+        "P02"
+      ]
+    },
+    {
+      "competitor_id": "C02",
+      "currency": "USD",
+      "unit": "per device",
+      "minimum": 99.95,
+      "maximum": 159.95,
+      "included_offer_ids": [
+        "P06",
+        "P07"
+      ]
+    },
+    {
+      "competitor_id": "C03",
+      "currency": "USD",
+      "unit": "per device",
+      "minimum": 35,
+      "maximum": 44.99,
+      "included_offer_ids": [
+        "P08",
+        "P09"
+      ]
+    },
+    {
+      "competitor_id": "C04",
+      "currency": "GBP",
+      "unit": "per device",
+      "minimum": 24.99,
+      "maximum": 24.99,
+      "included_offer_ids": [
+        "P10"
+      ]
+    }
+  ],
+  "pricing_model_comparison": {
+    "one_time_purchase": "All four brands have hardware purchase offers.",
+    "monthly_rental": "Pavlok P03; $239.88 for 12 months of use, without ownership.",
+    "optional_subscriptions": "Pavlok Plus P04 and P05 are software add-ons and excluded from hardware averages.",
+    "freemium_or_trial": "Conditional three-month Google Health Premium offer; Pavlok rental is paid, not a free trial.",
+    "normalization": "P03 x 12 = $239.88; P04 x 12 = $59.88; P05 / 12 = $2.4992 per month. These are separate recurring-cost illustrations."
+  },
+  "market_opportunities": [
+    {
+      "observation": "The closest electrical-stimulus benchmark costs $159.99; selected vibration substitutes cost less.",
+      "interpretation": "A focused lower-price electrical wearable may appeal to students, but this is an opportunity hypothesis, not proof of an empty market."
+    },
+    {
+      "observation": "Pavlok offers app control; MAX and TabTime show that on-device controls already exist.",
+      "interpretation": "Make reliable offline alarm operation and clear setup central to execution; do not claim those features are unique."
+    },
+    {
+      "observation": "Workspace review themes include reliability and comfort, based on only 29 selected reviews.",
+      "interpretation": "Test overnight fit, battery alerts, alarm retention, and partner disturbance with real users before promising benefits."
+    },
+    {
+      "observation": "Pavlok sells optional bands and upgrades; TabTime offers sizes and colors.",
+      "interpretation": "Consider optional washable or replaceable bands and a two-person bundle. Set any discount only after costs are known."
+    }
+  ],
+  "preliminary_pricing_recommendation": {
+    "currency": "USD",
+    "minimum": 79,
+    "maximum": 99,
+    "pricing_unit": "per device",
+    "pricing_model": "One-time purchase",
+    "status": "Preliminary hypothesis to test",
+    "benchmark_offer_ids": [
+      "P01",
+      "P06",
+      "P08",
+      "P10"
+    ],
+    "rationale": "Test a focused alarm at $79–$99, below Shock Clock 3 and near or below Inspire 3. A premium over simple vibration substitutes requires demonstrated comfort, reliable waking, easy controls, and a credible returns policy.",
+    "position": "38.1%–50.6% below the $159.99 Shock Clock 3; $0.95–$20.95 below Inspire 3. Above the $35 Sonic Shaker. No GBP-to-USD comparison is made.",
+    "conditions": [
+      "Validate costs and contribution margin",
+      "Test willingness to pay with real customers",
+      "Demonstrate safe operation and reliable waking",
+      "Include core alarm functions without a recurring fee"
+    ],
+    "not_optimal_price": true
+  },
+  "research_limitations": [
+    "Research is a public-page snapshot checked on 2026-10-27. No checkout, order, stock reservation, or physical product test was performed.",
+    "Prices are listed device charges, not fully landed totals. Sales tax, shipping, duties, eligibility-based discounts, and optional accessories are excluded unless specified.",
+    "Four brands are a purposive competitor sample, not a census. Researched product ranges are selected-offer ranges, not complete catalogues.",
+    "Broad USD statistics compare one representative hardware offer per US brand for the tactile-waking need. Different mechanisms and features limit equivalence. Narrow wearable statistics use only Pavlok and Fitbit.",
+    "TabTime is a UK reference only. Its GBP price is not converted or included in US averages, and US availability is unverified.",
+    "Pavlok has conflicting reference-discount labels and older rental amounts. Live product selectors are used; promotional status and some terms need checkout confirmation.",
+    "Displayed regular/reference prices do not establish that those prices were historically charged. Fitbit search-result promotions were stale relative to the live product pages.",
+    "Manufacturer feature and battery statements are claims, not independent performance evidence. Zap Band safety, efficacy, comfort, and reliability remain design goals.",
+    "Distribution channel, final product form, production costs, return costs, demand, and willingness to pay are unknown. U.S. online retail is an explicit working assumption.",
+    "The supplied Amazon review summary is small and selected; synthetic focus-group responses are not real consumer demand. Neither establishes willingness to pay.",
+    "Google Health Premium is optional. Its page displayed From $9.99, but a billing interval and renewal total were not established in the retrieved page, so no complete priced plan is inferred."
+  ],
+  "sources": [
+    {
+      "source_id": "S01",
+      "title": "Pavlok Shock Clock 3",
+      "url": "https://pavlok.com/products/shock-clock-3",
+      "source_type": "Official product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S02",
+      "title": "Pavlok Shock Clock MAX",
+      "url": "https://pavlok.com/products/shock-clock-max",
+      "source_type": "Official product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S03",
+      "title": "Pavlok Plus plans",
+      "url": "https://pavlok.com/pages/pavlok-plus",
+      "source_type": "Official pricing page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S04",
+      "title": "Pavlok rental and return policy",
+      "url": "https://helpdesk.pavlok.com/en/articles/11995680-pavlok-return-refund-and-warranty-policy-1674",
+      "source_type": "Official support policy",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S05",
+      "title": "Google Fitbit Inspire 3",
+      "url": "https://store.google.com/us/product/fitbit_inspire_3?hl=en-US",
+      "source_type": "Official product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S06",
+      "title": "Google Fitbit Charge 6",
+      "url": "https://store.google.com/us/product/fitbit_charge_6?hl=en-US",
+      "source_type": "Official product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S07",
+      "title": "Sonic Shaker White Compact Alarm Clock",
+      "url": "https://www.sonicalert.com/Sonic-Shaker-White-Alarm-Clock",
+      "source_type": "Official product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S08",
+      "title": "Sonic Bomb Alarm Clock with Super Shaker",
+      "url": "https://www.sonicalert.com/SBB500SS-Alarm-Clock",
+      "source_type": "Official product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S09",
+      "title": "Sonic Alert alarm clock catalogue",
+      "url": "https://www.sonicalert.com/alarm-clocks",
+      "source_type": "Official catalogue",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S10",
+      "title": "TabTime Vibrating Alarm Watch with 10 alarms",
+      "url": "https://tabtime.com/products/tabtime-vibrating-alarm-watch-with-10-alarms",
+      "source_type": "Official product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S11",
+      "title": "Google Health Premium",
+      "url": "https://store.google.com/us/product/google_health_premium?hl=en-US",
+      "source_type": "Official product page",
+      "date_checked": "2026-10-27"
+    },
+    {
+      "source_id": "S12",
+      "title": "Manage alarms on your Fitbit device",
+      "url": "https://support.google.com/googlehealth/answer/14226604?hl=en",
+      "source_type": "Official support page",
+      "date_checked": "2026-10-27"
+    }
+  ],
+  "verification_definitions": {
+    "Verified": "Price directly observed on official product/pricing page or authoritative primary source. Does not verify efficacy or checkout fulfilment.",
+    "Partially Verified": "Retailer or search result without complete product-page confirmation.",
+    "Estimated": "Explicit estimate, not an observed price.",
+    "Unavailable": "No reliable public price established."
+  },
+  "missing_value_convention": "JSON null and blank workbook cells mean not established, not zero; regular_price holds displayed reference prices only.",
+  "research_scope": "Mission 1 only; no dashboard built."
+}
